@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_1</name>
+   <name>cart</name>
    <tag></tag>
    <elementGuidId>26d9f4bc-3f92-4687-8893-88205095deca</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.shopping_cart_link</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@data-test = 'shopping-cart-link']</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>XPATH</key>
          <value>//div[@id='shopping_cart_container']/a</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>a.shopping_cart_link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

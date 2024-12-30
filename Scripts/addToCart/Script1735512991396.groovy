@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/addToCart'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/cart'))
 
 WebUI.verifyTextPresent('Sauce Labs Backpack', false)
 
