@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/username'), 'standard_user')
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/username'), GlobalVariable.username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/password'), 'qcu24s4901FyWDTwXGr6XA==')
 
